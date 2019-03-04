@@ -1,0 +1,5 @@
+在package.json里面安装依赖包
+### dependencies安装vux
+### devDependencies安装vux-loader
+### 在build->webpack.base.conf.js里面 const vuxLoader = require('vux-loader')
+### 最后module.exports =vuxLoader.merge(webpackConfig, { plugins: ['vux-ui'] })
